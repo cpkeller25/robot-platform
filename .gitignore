@@ -1,0 +1,39 @@
+# KiCad
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+_autosave-*
+*-rescue.kicad_sym
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+fp-info-cache
+
+# Generated manufacturing output (attach to GitHub Releases instead)
+gerbers/
+production/
+kibot-output/
+*.gbr
+*.gbrjob
+*.drl
+
+# ESP-IDF firmware
+firmware/**/build/
+firmware/**/sdkconfig
+firmware/**/sdkconfig.old
+firmware/**/managed_components/
+
+* Yocto (build trees are huge and machine-specific)
+linux/build
+linux/downloads
+linux/sstate-cache/
+
+# Secrets - never commit Wi-Fi passords to a public repo
+secrets.h
+*.env
+
+# OS / editors
+.DS_Store
+*~
+
