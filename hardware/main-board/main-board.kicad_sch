@@ -2,9 +2,336 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 237be8e1-e9f6-41b2-89ec-cb852f2b800a)
+	(uuid "237be8e1-e9f6-41b2-89ec-cb852f2b800a")
 	(paper "A4")
+	(title_block
+		(title "System Block Diagram")
+		(date "2026-11-18")
+		(rev "0")
+	)
 	(lib_symbols)
+	(sheet
+		(at 59.69 33.02)
+		(size 52.07 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06e3fdda-7a4a-4055-a458-8065ffe32803")
+		(property "Sheetname" "Power"
+			(at 59.69 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 59.69 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 73.66)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31eb53cf-d640-4ba1-bce7-c2f37301943f")
+		(property "Sheetname" "Motor Channel 3"
+			(at 172.72 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 172.72 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 33.02)
+		(size 48.26 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3366ae16-be9b-4b9a-a9dc-90629255ecfd")
+		(property "Sheetname" "MCU"
+			(at 129.54 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 129.54 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 73.66)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5bf65b34-693a-4449-84b9-2507f8f311f8")
+		(property "Sheetname" "Motor Channel 4"
+			(at 218.44 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 218.44 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 73.66)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6f875a77-d9de-4c70-b8cb-7443fad79911")
+		(property "Sheetname" "Motor Channel 2"
+			(at 125.73 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 125.73 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 33.02)
+		(size 55.88 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96b2beb2-292b-4ab3-8ddc-a9b0502d006f")
+		(property "Sheetname" "Sensors"
+			(at 190.5 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 190.5 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 73.66)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee7a9749-c44f-4e22-9891-72d4fae91104")
+		(property "Sheetname" "Motor Channel 1"
+			(at 76.2 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 76.2 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-board"
+				(path "/237be8e1-e9f6-41b2-89ec-cb852f2b800a"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

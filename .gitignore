@@ -9,6 +9,7 @@ _autosave-*
 *.kicad_pcb-bak
 *.bak
 fp-info-cache
+.history/
 
 # Generated manufacturing output (attach to GitHub Releases instead)
 gerbers/
