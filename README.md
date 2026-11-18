@@ -44,8 +44,8 @@ Manufacturing files (Gerbers, drill files, BOM) are attached to each
 
 | Part | License |
 |---|---|
-| Hardware (`hardware/`, `mechanical`) | CERN-OHL-P-2.0 |
+| Hardware (`hardware/`, `mechanical/`) | CERN-OHL-P-2.0 |
 | Firmware and Linux layer | MIT |
 | Documentation (`docs/`) | CC BY 4.0 |
 
-See the `LICENSE` file int each folder for the full text
+See the `LICENSE` file in each folder for the full text

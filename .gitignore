@@ -24,12 +24,12 @@ firmware/**/sdkconfig
 firmware/**/sdkconfig.old
 firmware/**/managed_components/
 
-* Yocto (build trees are huge and machine-specific)
+# Yocto (build trees are huge and machine-specific)
 linux/build
 linux/downloads
 linux/sstate-cache/
 
-# Secrets - never commit Wi-Fi passords to a public repo
+# Secrets - never commit Wi-Fi passwords to a public repo
 secrets.h
 *.env
 

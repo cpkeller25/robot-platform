@@ -1,0 +1,8 @@
+Copyright (c) 2026 Christopher Keller
+
+This repository contains several kinds of work under different licences:
+   
+   hardware/, mechanical/        CERN-OHL-P-2.0     (see hardware/LICENSE)
+   firmware/, linux/             MIT                (see firmware/LICENSE)
+   docs/                         CC-BY-4.0          (see docs/LICENSE)
+
